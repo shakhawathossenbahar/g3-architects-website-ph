@@ -1,0 +1,180 @@
+/* Word sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: "Work Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
+main{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+
+/* shared styles */
+.dark1{
+   color: #131313;
+}
+
+.dark2{
+   color: #424242;
+}
+
+.dark3{
+   color: #727272;
+}
+
+.bg-light{
+   background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn{
+   background-color: rgba(255, 144, 14, 1);
+   border-radius: 8px;
+   color: white;
+   padding: 20px 25px;
+   font-size: 1.25rem;
+   font-weight: 600;
+   border: none;
+}
+
+
+/* Nav bar starts here */
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto;
+   padding: 25px 0;
+   max-width: 1440px;
+}
+
+.navbar h3{
+   font-weight: 700;
+   font-size: 2.8rem;
+}
+
+.menu{
+   display: flex;
+   gap: 50px;
+}
+
+.menu-item{
+   list-style: none;
+}
+
+.menu-link{
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.banner{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.banner-content{
+   max-width: 850px;
+   align-items: center;
+   margin: 50px auto;
+   text-align: center;
+}
+
+.banner-title{
+   font-weight: 700;
+   font-size: 4rem;
+   margin-bottom: 20px;
+}
+
+.banner-description{
+   margin: 20px 0;;
+}
+
+.banner-image{
+   max-width: 100%;
+   border-radius: 8px;
+   margin-bottom: 30px;
+}
+
+
+/* 1st Section - Team Section */
+.teams{
+   display: flex;
+   align-items: center;
+   margin-top: 95px;
+}
+
+.team-img-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+}
+
+.our-features{
+   margin-left: 70px;
+   max-width: 530px;
+}
+
+.feature-title{
+   font-size: 2.8rem;
+   margin-bottom: 24px;
+}
+
+.quick-list{
+   font-weight: 500;
+}
+
+.of-our{
+   font-weight: bold;
+}
+
+.features{
+   font-weight: bold;
+   color: #FF900E;
+}
+
+.feature-description{
+   margin-bottom: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+   .navbar,
+   .teams{
+      flex-direction: column;
+   }
+   .team-img-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .our-features{
+      margin-top: 50px;
+   }
+}
