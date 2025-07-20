@@ -233,8 +233,24 @@ main{
    filter: grayscale(100%);
 }
 
+.footer{
+   height: 30Vh;
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 12vh;
+}
 
-
+.footer-div{
+   height: 10vh;
+   max-width: 75%;
+   background-color: #FFF4E7;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   padding: 2vw 20vw;
+}
 
 
 
